@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3266e17e;
+    padding: 10px;
+        
+}
+.navbar a{
+    color: rgb(50, 48, 63);
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: rgba(30, 40, 45, 0.749);
+    color: white;
+}
+.perfil-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tarjeta{
+    width: 650px;
+    border: 2px solid #4c65a0c7;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(216, 229, 232);
+    text-align: center;
+}
+.tarjeta h3{
+    color: rgb(33, 98, 64);
+}
+.perfil-comentarios{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.card{
+    margin: 1%;
+    padding: 5%;
+}
+.card-img-top{
+    width: 450px;
+    height: 150px;
+}
+
